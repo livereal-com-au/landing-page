@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>EmailAddress</key>
+    <string>%EMAILADDRESS%</string>
+    <key>IncomingMailServer</key>
+    <dict>
+        <key>Hostname</key>
+        <string>mail.livereal.com.au</string>
+        <key>Port</key>
+        <integer>993</integer>
+        <key>Username</key>
+        <string>%EMAILADDRESS%</string>
+        <key>Authentication</key>
+        <string>Password</string>
+        <key>UseSSL</key>
+        <true/>
+    </dict>
+    <key>OutgoingMailServer</key>
+    <dict>
+        <key>Hostname</key>
+        <string>mail.livereal.com.au</string>
+        <key>Port</key>
+        <integer>587</integer>
+        <key>Username</key>
+        <string>%EMAILADDRESS%</string>
+        <key>Authentication</key>
+        <string>Password</string>
+        <key>UseSSL</key>
+        <true/>
+    </dict>
+</dict>
+</plist>

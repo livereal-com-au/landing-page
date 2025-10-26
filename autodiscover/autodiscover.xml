@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+    <Account>
+      <AccountType>email</AccountType>
+      <Action>settings</Action>
+      <Protocol>
+        <Type>IMAP</Type>
+        <Server>mail.livereal.com.au</Server>
+        <Port>993</Port>
+        <SSL>on</SSL>
+        <AuthRequired>on</AuthRequired>
+        <LoginName>%EMAILADDRESS%</LoginName>
+        <DomainRequired>off</DomainRequired>
+        <SPA>off</SPA>
+        <SMTPLast>off</SMTPLast>
+      </Protocol>
+      <Protocol>
+        <Type>SMTP</Type>
+        <Server>mail.livereal.com.au</Server>
+        <Port>587</Port>
+        <SSL>TLS</SSL>
+        <AuthRequired>on</AuthRequired>
+        <LoginName>%EMAILADDRESS%</LoginName>
+        <SPA>off</SPA>
+      </Protocol>
+    </Account>
+  </Response>
+</Autodiscover>
