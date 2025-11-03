@@ -7,7 +7,7 @@
       <Protocol>
         <Type>IMAP</Type>
         <Server>mail.livereal.com.au</Server>
-        <Port>993</Port>
+        <Port>9993</Port>
         <SSL>on</SSL>
         <AuthRequired>on</AuthRequired>
         <LoginName>%EMAILADDRESS%</LoginName>
@@ -18,7 +18,7 @@
       <Protocol>
         <Type>SMTP</Type>
         <Server>mail.livereal.com.au</Server>
-        <Port>587</Port>
+        <Port>9587</Port>
         <SSL>TLS</SSL>
         <AuthRequired>on</AuthRequired>
         <LoginName>%EMAILADDRESS%</LoginName>

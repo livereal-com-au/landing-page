@@ -9,7 +9,7 @@
         <key>Hostname</key>
         <string>mail.livereal.com.au</string>
         <key>Port</key>
-        <integer>993</integer>
+        <integer>9993</integer>
         <key>Username</key>
         <string>%EMAILADDRESS%</string>
         <key>Authentication</key>
@@ -22,7 +22,7 @@
         <key>Hostname</key>
         <string>mail.livereal.com.au</string>
         <key>Port</key>
-        <integer>587</integer>
+        <integer>9587</integer>
         <key>Username</key>
         <string>%EMAILADDRESS%</string>
         <key>Authentication</key>
@@ -32,3 +32,5 @@
     </dict>
 </dict>
 </plist>
+
+
